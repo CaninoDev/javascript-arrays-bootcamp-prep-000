@@ -29,7 +29,7 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  return array.slice(-1)
+  return (array.slice(-1)
 }
 
 function addElementToEndOfArray(array, element) {
